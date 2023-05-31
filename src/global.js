@@ -21,10 +21,7 @@ export const GlobalStyles = createGlobalStyle`
         color: #FFFFFF;
         font-style: normal;
         text-rendering: optimizeLegibility;
-        margin-bottom: 2.1rem;
-    }
-    h3, h4 {
-        margin-bottom: 1.8rem;
+        margin-bottom: 0;
     }
     h5, h6 {
         font-family: "poppins-bold";

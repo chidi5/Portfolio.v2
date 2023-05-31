@@ -8,7 +8,7 @@ export const StyledHeader = styled.div`
     position: fixed;
     left: 13%;
     top: 0;
-    z-index: 10;
+    z-index: 30;
     
     @media (max-width: ${({ theme }) => theme.mobile}) {
         left: 25px;

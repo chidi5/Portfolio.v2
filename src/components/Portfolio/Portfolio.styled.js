@@ -50,7 +50,7 @@ export const StyledPorfolio = styled.section`
         font-family: "poppins-bold", sans-serif;
         font-weight: 600;
         line-height: 140%;
-        font-size: 100px;
+        font-size: 90px;
         font-size: 5.2em;
         margin: 0;
 

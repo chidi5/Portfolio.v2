@@ -11,7 +11,7 @@ const Menu = ({open}) => {
 			<li className="current"><Link to="/">Home</Link></li>
 			<li><Link to="/about">About</Link></li>
 			<li><Link to={pdf} target='_blank' download>Resume</Link></li>
-			<li><Link to="/work">Portfolio</Link></li>				
+			<li><Link to="/project">Portfolio</Link></li>				
 			<li><Link to="/contact">Contact</Link></li>					
 		</ul>
     </StyledMenu>

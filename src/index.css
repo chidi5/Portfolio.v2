@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.active .nav-indicator {
+    width: 4rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 232 240/var(--tw-bg-opacity));
+}
+
+.active .nav-text {
+    --tw-text-opacity: 1;
+    color: rgb(226 232 240/var(--tw-text-opacity));
+}
+
+p {
+    font-family: "poppins-semibold", sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+.pink {
+    color: #FF0077;
+}
