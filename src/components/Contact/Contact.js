@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { StyledContact } from './Contact.styled'
 
 function Contact() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
   return (
     <StyledContact>
         <div className='cont'>

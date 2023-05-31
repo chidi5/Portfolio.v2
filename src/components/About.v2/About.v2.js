@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import pdf from '../../static/files/resume.pdf'
 import weather from '../../static/images/weather.png'
@@ -6,6 +6,10 @@ import bespoke from '../../static/images/bespoke.png'
 import port from '../../static/images/port.png'
 
 function Abouts() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const location = useLocation();
     const fragmentId = location.hash;
