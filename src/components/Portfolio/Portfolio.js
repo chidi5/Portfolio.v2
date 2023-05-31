@@ -24,7 +24,7 @@ function Portfolio() {
                 </div>
             </Link>
 
-            <Link to="https://joshigbokwe.v1.netlify.app/" target="_blank">
+            <Link to="https://joshigbokwe-v1.netlify.app/" target="_blank">
                 <div className='content'>
                     <h2>joshigbokwe.netlify.app (v1)</h2>
                     <p>An old portfolio built on React, Styled Components, and more.</p>
